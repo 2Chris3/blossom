@@ -1,5 +1,4 @@
 /*   ::: RESET :::   */
-
 :where(html, body, header, main, footer, section, article, figure, img) {
     width: 100%;
 }
@@ -22,6 +21,7 @@
 
 :where(button, input, fieldset) {
     border: none;
+    appearance: none;
 }
 
 :where(input::-webkit-search-cancel-button) {
@@ -47,4 +47,33 @@
 
 :where(a:visited) {
     color: black;
+}
+
+
+
+/*   ::: HEADER :::   */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+figure {
+    width: 64px;
+    height: 64px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+}
+
+li {
+    display: inline;
+
 }
