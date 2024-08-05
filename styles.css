@@ -51,16 +51,31 @@
 
 
 
+/*   ::: COLORS :::   */
+:root {
+    --light-pink: #D4ACE5;
+}
+
+
+
+/*   ::: BODY :::   */
+html {
+    background-color:azure;
+}
+
+
 /*   ::: HEADER :::   */
 header {
     display: flex;
+    position:fixed;
     justify-content: space-between;
-    padding: 2rem 4rem;
+    padding: 1rem 6rem;
+    background-color: var(--light-pink);
 }
 
-figure {
-    width: 64px;
-    height: 64px;
+.header__figure, .logo {
+    width: 3rem;
+    height: 3rem;
 }
 
 nav {
@@ -75,5 +90,83 @@ ul {
 
 li {
     display: inline;
+}
 
+.nav__separation {
+    color: blueviolet;
+}
+
+.header__separation {
+    appearance: none;
+    height: 0.1px;
+    color: blueviolet;
+}
+
+
+/*   ::: SECTION 1 :::   */
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+
+}
+
+.cover__title {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 4rem 12rem;
+}
+
+.cover__cards {
+    display: flex;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scroll-snap-align: center;
+    scroll-snap-type: x proximity;
+    overflow: visible;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px blueviolet;
+    border-radius: 1rem;
+    height: 6rem;
+    padding: 10%;
+    margin: 10px;
+    width: 100%;
+    transition: 300ms;
+    animation-timing-function: ease-in-out;
+}
+
+.card__icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.cover__figure {
+    width: fit-content;
+}
+
+
+
+/*   ::: INTERACTIONS :::   */
+
+.card:hover {
+    background-color: var(--light-pink);
+    color: white;
+    outline: dotted white 6px;
+    font-size: 2rem;
+    outline-offset: -25px;
+    transform: scale(1.1);
+    transform-origin: bottom;
+    margin: 20px;
+    transition: 300ms;
+    animation-timing-function: ease-in-out;
 }

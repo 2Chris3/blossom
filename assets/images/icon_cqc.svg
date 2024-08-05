@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient gradientTransform="matrix(1112.14 21.9185 -21.9185 1112.14 112 512)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#5309cd"/>
+<stop offset="1" stop-color="#500c5a"/>
+</linearGradient>
+</defs>
+<g id="Layer-1">
+<path d="M550.772 889.501C526.796 903.414 497.204 903.414 473.228 889.501L387.367 839.678C381.43 836.233 375.06 833.594 368.425 831.832L272.482 806.35C245.691 799.234 224.766 778.309 217.65 751.518L192.168 655.575C190.406 648.94 187.767 642.57 184.322 636.633L134.499 550.772C120.586 526.796 120.586 497.204 134.499 473.228L184.322 387.367C187.767 381.43 190.406 375.06 192.168 368.425L217.65 272.482C224.766 245.691 245.691 224.766 272.482 217.65L368.425 192.168C375.06 190.406 381.43 187.767 387.367 184.322L473.228 134.499C497.204 120.586 526.796 120.586 550.772 134.499L636.633 184.322C642.57 187.767 648.94 190.406 655.575 192.168L751.518 217.65C778.309 224.766 799.234 245.691 806.35 272.482L831.832 368.425C833.594 375.06 836.233 381.43 839.678 387.367L889.501 473.228C903.414 497.204 903.414 526.796 889.501 550.772L839.678 636.633C836.233 642.57 833.594 648.94 831.832 655.575L806.35 751.518C799.234 778.309 778.309 799.234 751.518 806.35L655.575 831.832C648.94 833.594 642.57 836.233 636.633 839.678L550.772 889.501Z" fill="url(#LinearGradient)" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M412 512C412 456.772 456.772 412 512 412C567.228 412 612 456.772 612 512C612 567.228 567.228 612 512 612C456.772 612 412 567.228 412 512Z" fill="#e94420" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+</svg>

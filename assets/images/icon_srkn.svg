@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient gradientTransform="matrix(373.636 -44.2281 34.267 373.636 487.831 347.164)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#5309cd"/>
+<stop offset="1" stop-color="#500c5a"/>
+</linearGradient>
+<linearGradient gradientTransform="matrix(-269.431 294.308 -228.023 -269.431 542.262 773.598)" gradientUnits="userSpaceOnUse" id="LinearGradient_2" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#5309cd"/>
+<stop offset="1" stop-color="#500c5a"/>
+</linearGradient>
+</defs>
+<g id="Layer-1">
+<path d="M494.17 147.085C501.582 132.499 522.418 132.499 529.83 147.085L610.599 306.018C612.008 308.792 614.046 311.199 616.549 313.047L812.585 457.783C828.109 469.244 820.003 493.873 800.706 493.873L512 493.873L223.294 493.873C203.997 493.873 195.891 469.244 211.415 457.783L407.451 313.047C409.954 311.199 411.992 308.792 413.401 306.018L494.17 147.085Z" fill="url(#LinearGradient)" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M494.17 876.915C501.582 891.501 522.418 891.501 529.83 876.915L610.599 717.982C612.008 715.208 614.046 712.801 616.549 710.953L812.585 566.217C828.109 554.756 820.003 530.127 800.706 530.127L512 530.127L223.294 530.127C203.997 530.127 195.891 554.756 211.415 566.217L407.451 710.953C409.954 712.801 411.992 715.208 413.401 717.982L494.17 876.915Z" fill="url(#LinearGradient_2)" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M412 493.873C412 438.644 456.772 393.873 512 393.873C567.228 393.873 612 438.644 612 493.873C612 549.101 567.228 593.873 512 593.873C456.772 593.873 412 549.101 412 493.873Z" fill="#e94420" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+</svg>
