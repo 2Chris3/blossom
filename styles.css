@@ -213,7 +213,6 @@ nav {
     transform: scale(1.1);
     transform-origin: center;
     margin: 0 40px;
-
 }
 
 .card:hover .card__icon {
@@ -223,7 +222,7 @@ nav {
 }
 
 .card:hover .card__title {
-    transform: scale(1.5) translateY(-3rem);
+    transform: scale(1.5) translateY(-2rem);
 }
 
 .nav__account a:hover {
