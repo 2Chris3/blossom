@@ -37,6 +37,7 @@
 
 :where(fieldset, figure) {
     display: flex;
+    justify-content: center;
 }
 
 :where(ul, ol) {
@@ -181,22 +182,18 @@ nav {
 
 .card {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     border: solid 1px blueviolet;
     border-radius: 1rem;
     height: 6rem;
     padding: 10%;
     margin: 10px;
+    gap: 1rem;
     width: 100%;
-    transition: 700ms;
     animation-timing-function: ease-in-out;
     font-family: 'cormorant garamond', sans-serif;
-}
-
-.card__icon {
-    width: 3rem;
-    height: 3rem;
 }
 
 .cover__figure {
@@ -210,35 +207,24 @@ nav {
 .card:hover {
     background-color: var(--light-pink);
     color: white;
-    outline: dotted white 6px;
+    outline: dotted white 2px;
     font-size: 2rem;
-    outline-offset: -25px;
+    outline-offset: -5px;
     transform: scale(1.1);
-    transform-origin: bottom;
-    margin: 20px;
-    transition: 400ms;
-    animation-timing-function: ease-in-out;
-}
-/* 
-.nav__li:hover {
-    background-color: white;
-    transition: 400ms;
-    
-    border: none;
+    transform-origin: center;
+    margin: 0 40px;
+
 }
 
-.nav__account .nav__li:hover {
-    background-color: transparent;
-    transition: 400ms;
+.card:hover .card__icon {
+    transform: scale(1.5) translateY(-3rem);
+    background-color: azure;
+    clip-path: circle(40%);
 }
 
-.nav__a:hover {
-    transition: 400ms;
-    
-    outline: none;
-    border: none;
+.card:hover .card__title {
+    transform: scale(1.5) translateY(-3rem);
 }
-*/
 
 .nav__account a:hover {
     transition: 200ms;
