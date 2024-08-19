@@ -11,7 +11,7 @@
 }
 
 :where(html) {
-    background-color: #ececec;
+    background: #ececec;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
@@ -62,21 +62,21 @@
 /*   ::: VARIABLES :::   */
 :root {
     /* color */
-    --light-pink: #D4ACE5;
+    --light-pink: #d4ace5;
     --light-blue: #acd8ff;
     /* spacing */
     --link-padding: 0.5rem 0.75rem;
 }
 
 mark{
-    background-color: var(--light-blue);
+    background: var(--light-blue);
 }
 
 
 
 /*   ::: BODY :::   */
 html {
-    background-color:azure;
+    background:azure;
 }
 
 
@@ -86,7 +86,7 @@ header {
     position:fixed;
     justify-content: space-between;
     padding: 1rem 6rem;
-    background-color: var(--light-pink);
+    background: var(--light-pink);
 }
 
 .header__figure, .logo {
@@ -135,7 +135,7 @@ nav {
 }
 
 .nav__register {
-    background-color: black;
+    background: black;
     color: white;
 }
 
@@ -205,7 +205,7 @@ nav {
 /*   ::: INTERACTIONS :::   */
 
 .card:hover {
-    background-color: var(--light-pink);
+    background: var(--light-pink);
     color: white;
     outline: dotted white 2px;
     font-size: 2rem;
@@ -217,7 +217,7 @@ nav {
 
 .card:hover .card__icon {
     transform: scale(1.5) translateY(-3rem);
-    background-color: azure;
+    background: azure;
     clip-path: circle(40%);
 }
 
@@ -228,12 +228,12 @@ nav {
 .nav__account a:hover {
     transition: 200ms;
     color: black;
-    background-color: white;
+    background: white;
 } 
 
 .nav__li:hover:not(.nav__account li) {
     transition: 200ms;
-    background-color: white;
+    background: white;
 }
 
 .nav__login:hover {
